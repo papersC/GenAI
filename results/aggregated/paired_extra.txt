@@ -1,0 +1,21 @@
+[default] SEM-PM - MC-SVC-S [isl_mbps]: diff=-471.5140±58.6276 rel=-66.36%±2.22% p=2.09e-08 n=10
+[default] SEM-PM - UC-H265 [isl_mbps]: diff=-1190.7826±133.5004 rel=-83.30%±1.20% p=8.40e-09 n=10
+[default] SEM-PM - MC-SVC-PM [isl_mbps]: diff=-296.1440±55.7586 rel=-54.92%±3.91% p=7.62e-07 n=10
+[default] SEM-PM - MC-SVC-PM [quality_icu]: diff=-3.1594±2.3447 rel=-3.98%±2.94% p=1.38e-02 n=10
+[default] SEM-PM - SEM-R [quality_icu]: diff=5.5721±2.3122 rel=8.19%±3.68% p=4.05e-04 n=10
+[default] SEM-PM - SEM-PG [quality_icu]: diff=2.3727±1.4008 rel=3.32%±2.04% p=4.02e-03 n=10
+[default] SEM-OM - SEM-PM [quality_icu]: diff=1.0413±0.6561 rel=1.39%±0.88% p=5.84e-03 n=10
+[default] SEM-PM - MC-SVC-S [ontime_delivery]: diff=0.0439±0.0195 rel=4.73%±2.22% p=6.51e-04 n=10
+[default] SEM-PM - SEM-S [enh_ontime]: diff=0.2006±0.0480 rel=26.12%±7.57% p=5.71e-06 n=10
+[L0.8] SEM-PM - MC-SVC-PM [quality_icu]: diff=4.4244±2.5493 rel=7.45%±4.19% p=3.48e-03 n=10
+[L0.8] SEM-PM - SEM-R [quality_icu]: diff=17.9573±3.5297 rel=38.36%±9.62% p=1.10e-06 n=10
+[L0.8] SEM-PM - SEM-S [ontime_delivery]: diff=0.0091±0.0059 rel=0.96%±0.62% p=6.74e-03 n=10
+[L0.8] SEM-PM - MC-SVC-S [ontime_delivery]: diff=0.1431±0.0344 rel=17.57%±4.86% p=5.96e-06 n=10
+[L0.9] SEM-PM - SEM-S [ontime_delivery]: diff=0.0445±0.0156 rel=5.21%±1.90% p=1.17e-04 n=10
+[L0.9] SEM-PM - MC-SVC-S [ontime_delivery]: diff=0.2998±0.0559 rel=51.14%±13.39% p=7.01e-07 n=10
+[N48] SEM-PM - SEM-PG [quality_icu]: diff=9.5359±0.5101 rel=14.80%±0.98% p=1.15e-11 n=10
+[N48] SEM-PM - UC-H265 [isl_mbps]: diff=-3968.8957±352.1178 rel=-91.10%±0.68% p=1.06e-09 n=10
+[N48] SEM-PM - MC-SVC-S [isl_mbps]: diff=-826.2361±66.6115 rel=-68.16%±1.12% p=4.51e-10 n=10
+[rho2] SEM-PM - SEM-S [isl_mbps]: diff=-99.5393±24.5782 rel=-23.72%±4.50% p=7.38e-06 n=10
+[gpu0] SEM-PM - SEM-PG [quality_icu]: diff=0.5044±1.0019 rel=0.73%±1.41% p=2.84e-01 n=10
+[default vs gpu0] SEM-PM quality_icu G=3 minus G=0: diff=2.063±1.004 p=1.20e-03

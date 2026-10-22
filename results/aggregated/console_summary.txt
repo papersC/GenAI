@@ -1,0 +1,234 @@
+configs: {'dec0.5': 10, 'gpu1': 10, 'gpu6': 10, 'N48': 10, 'rho6': 10, 'L0.6': 10, 'dec1.5': 10, 'M4': 10, 'N32': 10, 'N8': 10, 'rho2': 10, 'M64': 10, 'L0.5': 10, 'N4': 10, 'L0.8': 10, 'rho8': 10, 'gpu0': 10, 'L0.9': 10, 'default': 10, 'M36': 10}
+
+== L0.5 ==
+UC-H265    isl= 1426.2±141.3 Lb= 167.7 p95= 430.1 p99= 481.3 dl=0.6278 del=0.7323 ont=0.5653±0.0753 Qicu= 52.2± 7.8 enh=0.559 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  77.1 p95= 124.8 p99= 146.1 dl=0.9914 del=0.9964 ont=0.9886±0.0063 Qicu= 91.8± 0.8 enh=0.985 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  640.1± 63.7 Lb=  75.6 p95= 120.7 p99= 131.6 dl=0.9974 del=0.9989 ont=0.9966±0.0032 Qicu= 87.5± 2.2 enh=0.999 tier=2.64 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  642.5± 64.5 Lb=  75.5 p95= 120.7 p99= 130.8 dl=0.9978 del=0.9991 ont=0.9971±0.0029 Qicu= 87.7± 2.0 enh=1.000 tier=2.68 gpu=0.0 solve=0.031/0.05 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 19.8 Lb=  75.5 p95= 120.7 p99= 129.8 dl=0.9978 del=0.9989 ont=0.9970±0.0030 Qicu= 80.1± 2.7 enh=0.824 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  247.3± 10.1 Lb=  75.4 p95= 120.7 p99= 129.8 dl=0.9980 del=0.9991 ont=0.9974±0.0028 Qicu= 80.0± 3.3 enh=0.991 tier=2.26 gpu=4.2 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  228.7±  9.5 Lb=  75.4 p95= 120.7 p99= 129.8 dl=0.9980 del=0.9992 ont=0.9974±0.0028 Qicu= 77.5± 3.4 enh=1.000 tier=1.82 gpu=1.5 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  245.6± 12.8 Lb=  75.4 p95= 120.7 p99= 129.8 dl=0.9980 del=0.9992 ont=0.9974±0.0028 Qicu= 80.5± 2.8 enh=0.994 tier=2.21 gpu=3.6 solve=0.075/0.19 nonopt=0.0 inf=0.000
+SEM-OM     isl=  247.7± 12.9 Lb=  75.4 p95= 120.7 p99= 129.8 dl=0.9980 del=0.9992 ont=0.9974±0.0027 Qicu= 81.3± 2.7 enh=0.994 tier=2.25 gpu=3.7 solve=0.078/0.20 nonopt=0.0 inf=0.000
+
+== L0.6 ==
+UC-H265    isl= 1426.2±141.3 Lb= 188.4 p95= 462.2 p99= 516.3 dl=0.5731 del=0.6737 ont=0.4970±0.0659 Qicu= 45.6± 7.1 enh=0.487 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  78.1 p95= 129.9 p99= 147.4 dl=0.9856 del=0.9945 ont=0.9812±0.0127 Qicu= 90.8± 1.4 enh=0.974 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  593.8± 70.2 Lb=  76.2 p95= 121.3 p99= 132.2 dl=0.9961 del=0.9989 ont=0.9951±0.0052 Qicu= 83.7± 3.6 enh=0.998 tier=2.38 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  625.8± 68.4 Lb=  76.0 p95= 121.2 p99= 130.4 dl=0.9965 del=0.9991 ont=0.9958±0.0049 Qicu= 86.1± 2.4 enh=1.000 tier=2.58 gpu=0.0 solve=0.032/0.05 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 19.8 Lb=  76.1 p95= 121.6 p99= 133.2 dl=0.9961 del=0.9986 ont=0.9949±0.0054 Qicu= 79.9± 2.6 enh=0.824 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  243.8±  8.5 Lb=  75.9 p95= 121.2 p99= 129.4 dl=0.9970 del=0.9991 ont=0.9962±0.0050 Qicu= 78.5± 2.3 enh=0.992 tier=2.16 gpu=4.2 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  228.8±  9.6 Lb=  75.8 p95= 121.1 p99= 129.4 dl=0.9971 del=0.9991 ont=0.9964±0.0048 Qicu= 76.7± 3.1 enh=1.000 tier=1.80 gpu=1.6 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  243.8± 10.3 Lb=  75.8 p95= 121.1 p99= 129.4 dl=0.9971 del=0.9991 ont=0.9964±0.0048 Qicu= 79.2± 2.2 enh=0.994 tier=2.15 gpu=3.5 solve=0.071/0.18 nonopt=0.0 inf=0.000
+SEM-OM     isl=  246.0± 10.6 Lb=  75.8 p95= 121.1 p99= 129.4 dl=0.9972 del=0.9991 ont=0.9965±0.0047 Qicu= 80.0± 2.0 enh=0.993 tier=2.19 gpu=3.6 solve=0.073/0.19 nonopt=0.0 inf=0.000
+
+== L0.8 ==
+UC-H265    isl= 1426.2±141.3 Lb= 238.4 p95= 530.2 p99= 576.8 dl=0.4437 del=0.5313 ont=0.3467±0.0544 Qicu= 31.6± 5.4 enh=0.338 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  98.7 p95= 181.5 p99= 208.2 dl=0.8527 del=0.9615 ont=0.8302±0.0344 Qicu= 76.4± 3.9 enh=0.816 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  201.2± 30.9 Lb=  79.5 p95= 131.9 p99= 153.1 dl=0.9788 del=0.9908 ont=0.9715±0.0132 Qicu= 44.5± 2.2 enh=0.995 tier=0.26 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  347.9± 59.6 Lb=  79.4 p95= 130.2 p99= 153.0 dl=0.9803 del=0.9908 ont=0.9729±0.0128 Qicu= 61.8± 3.6 enh=1.000 tier=1.12 gpu=0.0 solve=0.038/0.06 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 19.8 Lb=  80.4 p95= 134.9 p99= 154.8 dl=0.9733 del=0.9883 ont=0.9641±0.0150 Qicu= 76.2± 3.5 enh=0.771 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  174.5± 12.9 Lb=  79.4 p95= 131.0 p99= 152.9 dl=0.9804 del=0.9908 ont=0.9730±0.0127 Qicu= 48.3± 4.1 enh=0.986 tier=0.51 gpu=1.1 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  205.1± 12.7 Lb=  79.3 p95= 129.8 p99= 152.8 dl=0.9807 del=0.9909 ont=0.9733±0.0126 Qicu= 65.1± 2.8 enh=0.999 tier=1.26 gpu=1.0 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  213.1± 15.4 Lb=  79.3 p95= 129.8 p99= 152.8 dl=0.9806 del=0.9909 ont=0.9733±0.0126 Qicu= 66.2± 2.8 enh=0.995 tier=1.48 gpu=2.3 solve=0.058/0.15 nonopt=0.0 inf=0.000
+SEM-OM     isl=  217.5± 16.0 Lb=  79.2 p95= 129.6 p99= 152.8 dl=0.9808 del=0.9909 ont=0.9736±0.0127 Qicu= 68.3± 2.8 enh=0.996 tier=1.58 gpu=2.5 solve=0.060/0.15 nonopt=0.0 inf=0.000
+
+== L0.9 ==
+UC-H265    isl= 1426.2±141.3 Lb= 265.4 p95= 568.9 p99= 619.3 dl=0.4142 del=0.4579 ont=0.2989±0.0453 Qicu= 27.0± 4.4 enh=0.290 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb= 135.9 p95= 256.3 p99= 296.4 dl=0.6558 del=0.8798 ont=0.6102±0.0544 Qicu= 55.0± 6.1 enh=0.586 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  155.3± 11.2 Lb=  87.6 p95= 156.9 p99= 179.3 dl=0.9278 del=0.9722 ont=0.9094±0.0236 Qicu= 36.6± 1.6 enh=0.982 tier=0.04 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  174.6± 19.1 Lb=  87.6 p95= 156.7 p99= 179.3 dl=0.9283 del=0.9723 ont=0.9099±0.0238 Qicu= 38.9± 2.1 enh=1.000 tier=0.15 gpu=0.0 solve=0.032/0.05 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 19.8 Lb=  94.5 p95= 168.7 p99= 195.0 dl=0.8884 del=0.9620 ont=0.8654±0.0285 Qicu= 65.7± 3.0 enh=0.640 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  154.0±  9.5 Lb=  87.6 p95= 156.8 p99= 179.3 dl=0.9282 del=0.9723 ont=0.9098±0.0239 Qicu= 36.9± 1.6 enh=0.990 tier=0.06 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  166.2± 12.0 Lb=  87.5 p95= 156.7 p99= 179.3 dl=0.9283 del=0.9723 ont=0.9099±0.0238 Qicu= 43.4± 2.6 enh=0.999 tier=0.37 gpu=0.2 solve=0.008/0.01 nonopt=0.0 inf=0.000
+SEM-PM     isl=  163.4± 11.2 Lb=  87.5 p95= 156.7 p99= 179.3 dl=0.9283 del=0.9723 ont=0.9099±0.0238 Qicu= 41.5± 2.4 enh=0.998 tier=0.30 gpu=0.3 solve=0.046/0.09 nonopt=0.0 inf=0.000
+SEM-OM     isl=  163.5± 11.5 Lb=  87.5 p95= 156.7 p99= 179.3 dl=0.9284 del=0.9723 ont=0.9100±0.0238 Qicu= 41.3± 2.6 enh=1.000 tier=0.29 gpu=0.3 solve=0.046/0.08 nonopt=0.0 inf=0.000
+
+== M36 ==
+UC-H265    isl= 1426.2±141.3 Lb= 213.2 p95= 503.3 p99= 540.8 dl=0.4967 del=0.6006 ont=0.4093±0.0665 Qicu= 37.4± 6.7 enh=0.399 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  83.3 p95= 142.5 p99= 168.2 dl=0.9588 del=0.9836 ont=0.9462±0.0226 Qicu= 87.8± 2.3 enh=0.941 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  396.2± 49.2 Lb=  77.9 p95= 124.7 p99= 144.3 dl=0.9930 del=0.9958 ont=0.9892±0.0060 Qicu= 64.7± 3.8 enh=0.998 tier=1.21 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  531.6± 63.8 Lb=  77.8 p95= 124.6 p99= 141.8 dl=0.9933 del=0.9960 ont=0.9897±0.0061 Qicu= 78.4± 2.3 enh=1.000 tier=2.09 gpu=0.0 solve=0.034/0.05 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 20.1 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9942 ont=0.9866±0.0067 Qicu= 78.6± 3.1 enh=0.805 tier=2.78 gpu=3.9 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  223.4± 11.9 Lb=  77.7 p95= 124.4 p99= 141.2 dl=0.9937 del=0.9959 ont=0.9900±0.0061 Qicu= 69.3± 3.3 enh=0.990 tier=1.59 gpu=4.5 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  221.9± 10.8 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 73.1± 2.7 enh=0.999 tier=1.63 gpu=1.6 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  235.9± 11.0 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 75.5± 2.6 enh=0.996 tier=1.95 gpu=3.3 solve=0.062/0.14 nonopt=0.0 inf=0.000
+SEM-OM     isl=  239.1± 10.9 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.5± 2.6 enh=0.997 tier=2.01 gpu=3.5 solve=0.064/0.14 nonopt=0.0 inf=0.000
+
+== M4 ==
+UC-H265    isl= 1426.2±141.3 Lb= 213.2 p95= 503.3 p99= 540.8 dl=0.4967 del=0.6006 ont=0.4093±0.0665 Qicu= 37.4± 6.7 enh=0.399 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  83.3 p95= 142.5 p99= 168.2 dl=0.9588 del=0.9836 ont=0.9462±0.0226 Qicu= 87.8± 2.3 enh=0.941 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  396.2± 49.2 Lb=  77.9 p95= 124.7 p99= 144.3 dl=0.9930 del=0.9958 ont=0.9892±0.0060 Qicu= 64.7± 3.8 enh=0.998 tier=1.21 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  531.6± 63.8 Lb=  77.8 p95= 124.6 p99= 141.8 dl=0.9933 del=0.9960 ont=0.9897±0.0061 Qicu= 78.4± 2.3 enh=1.000 tier=2.09 gpu=0.0 solve=0.034/0.06 nonopt=0.0 inf=0.000
+SEM-S      isl=  287.5± 22.0 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9865±0.0067 Qicu= 77.1± 3.2 enh=0.762 tier=2.91 gpu=1.6 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  225.8± 12.4 Lb=  77.7 p95= 124.4 p99= 141.2 dl=0.9936 del=0.9959 ont=0.9899±0.0061 Qicu= 68.0± 3.3 enh=0.981 tier=1.63 gpu=1.9 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  219.3±  8.6 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 73.0± 2.7 enh=0.999 tier=1.59 gpu=0.5 solve=0.009/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  225.7±  9.3 Lb=  77.6 p95= 124.3 p99= 140.4 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 74.1± 2.3 enh=0.999 tier=1.76 gpu=1.0 solve=0.058/0.12 nonopt=0.0 inf=0.000
+SEM-OM     isl=  227.9±  9.7 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 75.1± 2.4 enh=1.000 tier=1.80 gpu=1.0 solve=0.061/0.15 nonopt=0.0 inf=0.000
+
+== M64 ==
+UC-H265    isl= 1426.2±141.3 Lb= 213.2 p95= 503.3 p99= 540.8 dl=0.4967 del=0.6006 ont=0.4093±0.0665 Qicu= 37.4± 6.7 enh=0.399 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  83.3 p95= 142.5 p99= 168.2 dl=0.9588 del=0.9836 ont=0.9462±0.0226 Qicu= 87.8± 2.3 enh=0.941 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  396.2± 49.2 Lb=  77.9 p95= 124.7 p99= 144.3 dl=0.9930 del=0.9958 ont=0.9892±0.0060 Qicu= 64.7± 3.8 enh=0.998 tier=1.21 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  531.6± 63.8 Lb=  77.8 p95= 124.6 p99= 141.8 dl=0.9933 del=0.9960 ont=0.9897±0.0061 Qicu= 78.4± 2.3 enh=1.000 tier=2.09 gpu=0.0 solve=0.034/0.05 nonopt=0.0 inf=0.000
+SEM-S      isl=  281.0± 19.6 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9942 ont=0.9866±0.0067 Qicu= 78.7± 2.8 enh=0.811 tier=2.76 gpu=4.3 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  222.9± 11.9 Lb=  77.6 p95= 124.4 p99= 141.2 dl=0.9937 del=0.9960 ont=0.9900±0.0061 Qicu= 69.7± 3.3 enh=0.990 tier=1.59 gpu=4.9 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  219.8± 10.5 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 72.3± 2.7 enh=1.000 tier=1.57 gpu=1.6 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  238.1± 10.4 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 75.8± 2.6 enh=0.995 tier=2.00 gpu=3.7 solve=0.061/0.15 nonopt=0.0 inf=0.000
+SEM-OM     isl=  241.1± 10.3 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.8± 2.6 enh=0.995 tier=2.05 gpu=3.9 solve=0.064/0.16 nonopt=0.0 inf=0.000
+
+== N32 ==
+UC-H265    isl= 2917.0±234.7 Lb= 301.8 p95= 626.1 p99= 678.6 dl=0.4068 del=0.3518 ont=0.2914±0.0385 Qicu= 25.7± 3.1 enh=0.275 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl= 1001.8± 45.9 Lb=  83.4 p95= 146.0 p99= 168.7 dl=0.9478 del=0.9800 ont=0.9337±0.0299 Qicu= 86.8± 2.9 enh=0.930 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  507.9± 58.6 Lb=  79.0 p95= 130.0 p99= 152.1 dl=0.9800 del=0.9928 ont=0.9745±0.0128 Qicu= 58.5± 4.0 enh=0.997 tier=0.96 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  735.2± 56.9 Lb=  78.9 p95= 129.9 p99= 151.4 dl=0.9809 del=0.9931 ont=0.9755±0.0127 Qicu= 77.8± 4.2 enh=0.999 tier=2.07 gpu=0.0 solve=0.051/0.08 nonopt=0.0 inf=0.000
+SEM-S      isl=  404.1± 18.3 Lb=  79.3 p95= 131.7 p99= 153.2 dl=0.9780 del=0.9910 ont=0.9711±0.0149 Qicu= 76.9± 2.5 enh=0.776 tier=2.86 gpu=5.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  304.1± 14.0 Lb=  78.8 p95= 129.5 p99= 150.9 dl=0.9815 del=0.9930 ont=0.9761±0.0121 Qicu= 65.7± 4.2 enh=0.987 tier=1.46 gpu=6.5 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  278.3± 10.9 Lb=  78.7 p95= 129.1 p99= 150.7 dl=0.9822 del=0.9933 ont=0.9770±0.0119 Qicu= 66.7± 2.3 enh=0.999 tier=1.15 gpu=0.6 solve=0.027/0.04 nonopt=0.0 inf=0.000
+SEM-PM     isl=  325.1± 14.8 Lb=  78.7 p95= 129.2 p99= 150.7 dl=0.9821 del=0.9933 ont=0.9769±0.0119 Qicu= 74.1± 3.1 enh=0.993 tier=1.87 gpu=5.0 solve=0.188/1.09 nonopt=0.0 inf=0.000
+SEM-OM     isl=  328.4± 15.6 Lb=  78.6 p95= 129.0 p99= 150.4 dl=0.9825 del=0.9933 ont=0.9773±0.0117 Qicu= 75.2± 3.2 enh=0.994 tier=1.93 gpu=5.2 solve=0.199/1.04 nonopt=0.0 inf=0.000
+
+== N4 ==
+UC-H265    isl=  386.9± 64.4 Lb= 106.6 p95= 199.9 p99= 220.6 dl=0.7785 del=0.9453 ont=0.7625±0.1176 Qicu= 69.9±12.9 enh=0.747 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  295.2± 49.5 Lb=  90.6 p95= 161.5 p99= 173.4 dl=0.9099 del=0.9760 ont=0.8983±0.0442 Qicu= 83.4± 5.0 enh=0.891 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  160.9± 31.5 Lb=  86.4 p95= 143.5 p99= 160.5 dl=0.9518 del=0.9901 ont=0.9468±0.0270 Qicu= 66.7± 6.3 enh=0.995 tier=1.39 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  212.8± 29.7 Lb=  86.2 p95= 142.6 p99= 159.7 dl=0.9532 del=0.9905 ont=0.9484±0.0269 Qicu= 76.2± 4.2 enh=0.999 tier=2.08 gpu=0.0 solve=0.016/0.04 nonopt=0.0 inf=0.000
+SEM-S      isl=  123.3± 15.1 Lb=  86.7 p95= 147.2 p99= 161.9 dl=0.9463 del=0.9880 ont=0.9402±0.0269 Qicu= 71.0± 6.5 enh=0.672 tier=2.95 gpu=0.2 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=   87.7±  5.2 Lb=  86.1 p95= 142.2 p99= 159.5 dl=0.9538 del=0.9905 ont=0.9490±0.0262 Qicu= 65.6± 7.4 enh=0.981 tier=1.50 gpu=0.6 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=   94.0±  5.8 Lb=  86.0 p95= 142.0 p99= 159.5 dl=0.9544 del=0.9906 ont=0.9497±0.0261 Qicu= 72.2± 6.2 enh=0.998 tier=1.88 gpu=0.2 solve=0.001/0.00 nonopt=0.0 inf=0.000
+SEM-PM     isl=   94.1±  5.7 Lb=  86.0 p95= 142.0 p99= 159.5 dl=0.9544 del=0.9906 ont=0.9497±0.0261 Qicu= 72.1± 6.3 enh=0.998 tier=1.88 gpu=0.2 solve=0.026/0.06 nonopt=0.0 inf=0.000
+SEM-OM     isl=   95.1±  5.8 Lb=  85.9 p95= 142.0 p99= 159.5 dl=0.9547 del=0.9907 ont=0.9500±0.0260 Qicu= 73.4± 6.4 enh=1.000 tier=1.94 gpu=0.2 solve=0.026/0.06 nonopt=0.0 inf=0.000
+
+== N48 ==
+UC-H265    isl= 4353.2±360.9 Lb= 328.3 p95= 697.5 p99= 764.9 dl=0.3971 del=0.2753 ont=0.2340±0.0389 Qicu= 21.5± 4.0 enh=0.231 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl= 1210.5± 83.4 Lb=  83.2 p95= 143.9 p99= 170.2 dl=0.9546 del=0.9813 ont=0.9408±0.0199 Qicu= 87.0± 2.2 enh=0.932 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  576.4± 61.6 Lb=  78.1 p95= 128.8 p99= 148.8 dl=0.9841 del=0.9947 ont=0.9799±0.0104 Qicu= 58.4± 3.3 enh=0.996 tier=0.93 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  889.8± 75.8 Lb=  78.0 p95= 128.6 p99= 147.5 dl=0.9852 del=0.9949 ont=0.9812±0.0103 Qicu= 78.2± 2.9 enh=0.999 tier=2.07 gpu=0.0 solve=0.068/0.12 nonopt=0.0 inf=0.000
+SEM-S      isl=  487.4± 31.5 Lb=  78.6 p95= 130.5 p99= 151.7 dl=0.9817 del=0.9932 ont=0.9765±0.0121 Qicu= 77.0± 2.3 enh=0.768 tier=2.93 gpu=3.7 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  362.9± 25.3 Lb=  77.8 p95= 128.2 p99= 145.4 dl=0.9858 del=0.9949 ont=0.9818±0.0103 Qicu= 65.6± 4.5 enh=0.985 tier=1.51 gpu=5.7 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  322.0± 18.0 Lb=  77.7 p95= 127.4 p99= 144.5 dl=0.9864 del=0.9951 ont=0.9826±0.0098 Qicu= 64.6± 2.4 enh=1.000 tier=0.99 gpu=0.3 solve=0.040/0.08 nonopt=0.0 inf=0.000
+SEM-PM     isl=  384.3± 19.5 Lb=  77.7 p95= 127.6 p99= 144.7 dl=0.9861 del=0.9951 ont=0.9822±0.0100 Qicu= 74.1± 2.4 enh=0.996 tier=1.85 gpu=3.9 solve=0.229/1.11 nonopt=0.0 inf=0.000
+SEM-OM     isl=  386.3± 19.6 Lb=  77.6 p95= 127.3 p99= 144.4 dl=0.9866 del=0.9952 ont=0.9828±0.0097 Qicu= 74.8± 2.4 enh=0.997 tier=1.88 gpu=4.0 solve=0.239/1.15 nonopt=0.0 inf=0.000
+
+== N8 ==
+UC-H265    isl=  771.5± 90.9 Lb= 153.1 p95= 357.8 p99= 411.1 dl=0.6307 del=0.8073 ont=0.5791±0.0838 Qicu= 52.1± 8.7 enh=0.556 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  498.6± 55.2 Lb=  86.4 p95= 156.9 p99= 178.6 dl=0.9375 del=0.9775 ont=0.9239±0.0323 Qicu= 84.7± 2.8 enh=0.906 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  241.2± 52.8 Lb=  79.7 p95= 131.7 p99= 152.5 dl=0.9785 del=0.9929 ont=0.9739±0.0130 Qicu= 62.5± 6.9 enh=0.993 tier=1.16 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  339.6± 47.2 Lb=  79.7 p95= 131.4 p99= 152.4 dl=0.9792 del=0.9932 ont=0.9747±0.0133 Qicu= 75.3± 4.2 enh=0.999 tier=1.95 gpu=0.0 solve=0.024/0.04 nonopt=0.0 inf=0.000
+SEM-S      isl=  198.1± 15.5 Lb=  80.5 p95= 134.2 p99= 156.3 dl=0.9758 del=0.9911 ont=0.9697±0.0147 Qicu= 75.4± 3.4 enh=0.751 tier=2.79 gpu=1.6 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  145.4± 20.1 Lb=  79.5 p95= 131.1 p99= 152.3 dl=0.9805 del=0.9932 ont=0.9760±0.0127 Qicu= 63.4± 6.3 enh=0.985 tier=1.35 gpu=1.3 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  154.7± 13.9 Lb=  79.5 p95= 131.1 p99= 152.2 dl=0.9804 del=0.9933 ont=0.9759±0.0127 Qicu= 71.2± 1.4 enh=0.998 tier=1.65 gpu=0.5 solve=0.004/0.01 nonopt=0.0 inf=0.000
+SEM-PM     isl=  158.0± 13.6 Lb=  79.5 p95= 131.2 p99= 152.2 dl=0.9804 del=0.9933 ont=0.9759±0.0127 Qicu= 71.8± 2.2 enh=0.998 tier=1.75 gpu=0.8 solve=0.035/0.06 nonopt=0.0 inf=0.000
+SEM-OM     isl=  159.8± 13.7 Lb=  79.4 p95= 131.1 p99= 152.0 dl=0.9807 del=0.9933 ont=0.9763±0.0125 Qicu= 72.7± 2.0 enh=1.000 tier=1.79 gpu=0.8 solve=0.035/0.06 nonopt=0.0 inf=0.000
+
+== dec0.5 ==
+SEM-S      isl=  282.2± 19.8 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9866±0.0067 Qicu= 85.4± 1.2 enh=0.940 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  238.1± 16.8 Lb=  77.6 p95= 124.5 p99= 141.2 dl=0.9936 del=0.9959 ont=0.9899±0.0061 Qicu= 73.2± 3.3 enh=0.995 tier=1.84 gpu=3.8 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  242.4± 17.1 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 77.0± 1.5 enh=1.000 tier=1.95 gpu=2.3 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  251.9± 17.9 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9901±0.0060 Qicu= 78.6± 1.7 enh=1.000 tier=2.14 gpu=3.2 solve=0.050/0.10 nonopt=0.0 inf=0.000
+SEM-OM     isl=  255.5± 18.0 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 79.8± 1.8 enh=1.000 tier=2.21 gpu=3.3 solve=0.051/0.11 nonopt=0.0 inf=0.000
+
+== dec1.5 ==
+SEM-S      isl=  282.2± 19.8 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9866±0.0067 Qicu= 70.8± 2.9 enh=0.645 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  208.0± 12.6 Lb=  77.6 p95= 124.4 p99= 140.4 dl=0.9937 del=0.9960 ont=0.9900±0.0060 Qicu= 65.5± 3.0 enh=0.983 tier=1.37 gpu=3.6 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  207.2±  9.5 Lb=  77.6 p95= 124.1 p99= 140.0 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 69.5± 2.8 enh=1.000 tier=1.39 gpu=1.4 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  219.6± 10.4 Lb=  77.6 p95= 124.2 p99= 140.0 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 71.8± 2.4 enh=0.989 tier=1.70 gpu=3.2 solve=0.066/0.18 nonopt=0.0 inf=0.000
+SEM-OM     isl=  221.7± 10.4 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 72.7± 2.4 enh=0.989 tier=1.75 gpu=3.3 solve=0.067/0.18 nonopt=0.0 inf=0.000
+
+== default ==
+UC-H265    isl= 1426.2±141.3 Lb= 213.2 p95= 503.3 p99= 540.8 dl=0.4967 del=0.6006 ont=0.4093±0.0665 Qicu= 37.4± 6.7 enh=0.399 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-S   isl=  706.9± 66.6 Lb=  83.3 p95= 142.5 p99= 168.2 dl=0.9588 del=0.9836 ont=0.9462±0.0226 Qicu= 87.8± 2.3 enh=0.941 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-R   isl=  396.2± 49.2 Lb=  77.9 p95= 124.7 p99= 144.3 dl=0.9930 del=0.9958 ont=0.9892±0.0060 Qicu= 64.7± 3.8 enh=0.998 tier=1.21 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+MC-SVC-PM  isl=  531.6± 63.8 Lb=  77.8 p95= 124.6 p99= 141.8 dl=0.9933 del=0.9960 ont=0.9897±0.0061 Qicu= 78.4± 2.3 enh=1.000 tier=2.09 gpu=0.0 solve=0.045/0.10 nonopt=0.0 inf=0.000
+SEM-S      isl=  282.2± 19.8 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9866±0.0067 Qicu= 78.2± 2.8 enh=0.794 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  223.3± 12.0 Lb=  77.6 p95= 124.4 p99= 141.2 dl=0.9937 del=0.9959 ont=0.9900±0.0061 Qicu= 69.6± 3.2 enh=0.989 tier=1.62 gpu=4.1 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  221.0±  8.9 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 72.8± 2.8 enh=0.999 tier=1.61 gpu=1.5 solve=0.012/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  235.4± 10.6 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 75.2± 2.6 enh=0.995 tier=1.94 gpu=3.2 solve=0.087/0.26 nonopt=0.0 inf=0.000
+SEM-OM     isl=  238.4± 10.8 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.2± 2.7 enh=0.995 tier=1.99 gpu=3.3 solve=0.087/0.24 nonopt=0.0 inf=0.000
+
+== gpu0 ==
+SEM-S      isl=  291.2± 22.9 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9865±0.0067 Qicu= 75.6± 3.7 enh=0.727 tier=3.00 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  226.3± 13.3 Lb=  77.7 p95= 124.5 p99= 141.2 dl=0.9936 del=0.9959 ont=0.9899±0.0061 Qicu= 67.3± 3.6 enh=0.976 tier=1.68 gpu=0.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  216.2±  9.3 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 72.6± 2.6 enh=1.000 tier=1.54 gpu=0.0 solve=0.008/0.01 nonopt=0.0 inf=0.000
+SEM-PM     isl=  220.1±  9.1 Lb=  77.6 p95= 124.2 p99= 140.4 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 73.1± 2.4 enh=1.000 tier=1.66 gpu=0.0 solve=0.058/0.15 nonopt=0.0 inf=0.000
+SEM-OM     isl=  222.1±  9.2 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 74.2± 2.4 enh=1.000 tier=1.70 gpu=0.0 solve=0.060/0.16 nonopt=0.0 inf=0.000
+
+== gpu1 ==
+SEM-S      isl=  283.7± 20.2 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9866±0.0067 Qicu= 77.7± 3.2 enh=0.779 tier=2.86 gpu=2.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  224.1± 12.4 Lb=  77.7 p95= 124.5 p99= 141.2 dl=0.9937 del=0.9959 ont=0.9900±0.0061 Qicu= 69.1± 2.7 enh=0.988 tier=1.64 gpu=2.9 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  219.8±  9.6 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 72.8± 2.7 enh=0.999 tier=1.59 gpu=1.1 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  231.4± 11.5 Lb=  77.6 p95= 124.3 p99= 140.4 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 74.7± 2.5 enh=0.994 tier=1.88 gpu=2.3 solve=0.077/0.30 nonopt=0.0 inf=0.000
+SEM-OM     isl=  234.0± 11.8 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 75.7± 2.5 enh=0.994 tier=1.93 gpu=2.3 solve=0.084/0.37 nonopt=0.0 inf=0.000
+
+== gpu6 ==
+SEM-S      isl=  282.0± 19.7 Lb=  78.3 p95= 125.3 p99= 145.0 dl=0.9920 del=0.9941 ont=0.9866±0.0067 Qicu= 78.1± 2.8 enh=0.794 tier=2.80 gpu=3.6 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  223.4± 12.2 Lb=  77.6 p95= 124.4 p99= 141.2 dl=0.9937 del=0.9959 ont=0.9900±0.0061 Qicu= 69.6± 3.3 enh=0.989 tier=1.62 gpu=4.3 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  220.1± 10.0 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 72.5± 2.5 enh=1.000 tier=1.58 gpu=1.5 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  235.9± 10.5 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9902±0.0060 Qicu= 75.3± 2.6 enh=0.996 tier=1.94 gpu=3.4 solve=0.080/1.67 nonopt=0.0 inf=0.000
+SEM-OM     isl=  238.8± 10.7 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.3± 2.7 enh=0.996 tier=2.00 gpu=3.5 solve=0.067/0.19 nonopt=0.0 inf=0.000
+
+== rho2 ==
+SEM-S      isl=  411.7± 30.9 Lb=  79.2 p95= 127.9 p99= 148.2 dl=0.9880 del=0.9916 ont=0.9803±0.0084 Qicu= 77.3± 3.1 enh=0.782 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  278.6± 20.5 Lb=  77.7 p95= 124.6 p99= 142.2 dl=0.9934 del=0.9959 ont=0.9897±0.0061 Qicu= 66.7± 3.5 enh=0.990 tier=1.43 gpu=4.0 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  284.6± 13.8 Lb=  77.6 p95= 124.3 p99= 140.6 dl=0.9938 del=0.9960 ont=0.9901±0.0060 Qicu= 72.1± 2.8 enh=0.999 tier=1.56 gpu=1.4 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  312.2± 15.8 Lb=  77.6 p95= 124.4 p99= 140.7 dl=0.9938 del=0.9960 ont=0.9901±0.0060 Qicu= 74.4± 2.6 enh=0.996 tier=1.88 gpu=3.0 solve=0.068/0.18 nonopt=0.0 inf=0.000
+SEM-OM     isl=  318.3± 15.8 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 75.6± 2.7 enh=0.995 tier=1.94 gpu=3.2 solve=0.070/0.18 nonopt=0.0 inf=0.000
+
+== rho6 ==
+SEM-S      isl=  239.0± 16.2 Lb=  78.1 p95= 125.0 p99= 144.1 dl=0.9926 del=0.9948 ont=0.9879±0.0065 Qicu= 78.3± 2.8 enh=0.797 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  201.9± 11.0 Lb=  77.6 p95= 124.4 p99= 140.8 dl=0.9937 del=0.9960 ont=0.9901±0.0060 Qicu= 71.1± 3.1 enh=0.990 tier=1.70 gpu=4.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  198.6±  8.4 Lb=  77.6 p95= 124.2 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 73.1± 2.8 enh=1.000 tier=1.62 gpu=1.5 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  208.3±  9.9 Lb=  77.6 p95= 124.2 p99= 140.1 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 75.4± 2.6 enh=0.994 tier=1.95 gpu=3.2 solve=0.063/0.15 nonopt=0.0 inf=0.000
+SEM-OM     isl=  210.3± 10.1 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.5± 2.7 enh=0.994 tier=2.01 gpu=3.3 solve=0.067/0.15 nonopt=0.0 inf=0.000
+
+== rho8 ==
+SEM-S      isl=  217.4± 14.5 Lb=  78.0 p95= 125.0 p99= 143.4 dl=0.9930 del=0.9951 ont=0.9886±0.0064 Qicu= 78.4± 2.8 enh=0.798 tier=2.81 gpu=3.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-R      isl=  189.8± 10.6 Lb=  77.6 p95= 124.3 p99= 140.7 dl=0.9938 del=0.9960 ont=0.9901±0.0060 Qicu= 71.3± 2.9 enh=0.990 tier=1.72 gpu=4.4 solve=0.000/0.00 nonopt=0.0 inf=0.000
+SEM-PG     isl=  187.3±  8.4 Lb=  77.6 p95= 124.1 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 73.2± 2.8 enh=0.999 tier=1.63 gpu=1.5 solve=0.010/0.02 nonopt=0.0 inf=0.000
+SEM-PM     isl=  194.7±  9.6 Lb=  77.6 p95= 124.2 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0060 Qicu= 75.6± 2.6 enh=0.994 tier=1.97 gpu=3.3 solve=0.063/0.14 nonopt=0.0 inf=0.000
+SEM-OM     isl=  196.1±  9.8 Lb=  77.6 p95= 124.0 p99= 139.9 dl=0.9938 del=0.9961 ont=0.9902±0.0059 Qicu= 76.5± 2.7 enh=0.994 tier=2.02 gpu=3.4 solve=0.066/0.15 nonopt=0.0 inf=0.000
+SEM-PM - MC-SVC-S [isl_mbps]: diff=-471.5140±58.6276 rel=-66.36%±2.22% p=2.09e-08 n=10
+SEM-PM - MC-SVC-S [ontime_delivery]: diff=0.0439±0.0195 rel=4.73%±2.22% p=6.51e-04 n=10
+SEM-PM - MC-SVC-S [quality_icu]: diff=-12.5917±1.6797 rel=-14.34%±1.92% p=3.87e-08 n=10
+SEM-PM - MC-SVC-S [lat_base_p95]: diff=-18.2328±7.2686 rel=-12.38%±4.36% p=3.04e-04 n=10
+SEM-PM - MC-SVC-S [enh_ontime]: diff=0.0536±0.0244 rel=5.83%±2.87% p=7.64e-04 n=10
+SEM-PM - UC-H265 [isl_mbps]: diff=-1190.7826±133.5004 rel=-83.30%±1.20% p=8.40e-09 n=10
+SEM-PM - UC-H265 [ontime_delivery]: diff=0.5809±0.0648 rel=154.48%±45.36% p=8.05e-09 n=10
+SEM-PM - UC-H265 [quality_icu]: diff=37.8367±6.0653 rel=112.87%±39.14% p=1.91e-07 n=10
+SEM-PM - UC-H265 [lat_base_p95]: diff=-379.0365±52.4906 rel=-74.79%±2.99% p=5.37e-08 n=10
+SEM-PM - UC-H265 [enh_ontime]: diff=0.5963±0.0713 rel=165.08%±50.43% p=1.48e-08 n=10
+SEM-PM - MC-SVC-PM [isl_mbps]: diff=-296.1440±55.7586 rel=-54.92%±3.91% p=7.62e-07 n=10
+SEM-PM - MC-SVC-PM [ontime_delivery]: diff=0.0005±0.0004 rel=0.05%±0.04% p=2.82e-02 n=10
+SEM-PM - MC-SVC-PM [quality_icu]: diff=-3.1594±2.3447 rel=-3.98%±2.94% p=1.38e-02 n=10
+SEM-PM - MC-SVC-PM [lat_base_p95]: diff=-0.3468±0.7529 rel=-0.26%±0.56% p=3.25e-01 n=10
+SEM-PM - MC-SVC-PM [enh_ontime]: diff=-0.0049±0.0053 rel=-0.49%±0.53% p=6.73e-02 n=10
+SEM-PM - SEM-S [isl_mbps]: diff=-46.7533±12.3463 rel=-16.22%±3.41% p=1.28e-05 n=10
+SEM-PM - SEM-S [ontime_delivery]: diff=0.0036±0.0013 rel=0.37%±0.13% p=1.38e-04 n=10
+SEM-PM - SEM-S [quality_icu]: diff=-2.9459±1.0383 rel=-3.75%±1.32% p=1.23e-04 n=10
+SEM-PM - SEM-S [lat_base_p95]: diff=-1.0564±1.0995 rel=-0.80%±0.81% p=5.78e-02 n=10
+SEM-PM - SEM-S [enh_ontime]: diff=0.2006±0.0480 rel=26.12%±7.57% p=5.71e-06 n=10
+SEM-PM - SEM-R [isl_mbps]: diff=12.1533±5.8403 rel=5.60%±3.02% p=1.11e-03 n=10
+SEM-PM - SEM-R [ontime_delivery]: diff=0.0002±0.0001 rel=0.02%±0.01% p=1.56e-02 n=10
+SEM-PM - SEM-R [quality_icu]: diff=5.5721±2.3122 rel=8.19%±3.68% p=4.05e-04 n=10
+SEM-PM - SEM-R [lat_base_p95]: diff=-0.1735±0.4532 rel=-0.13%±0.34% p=4.09e-01 n=10
+SEM-PM - SEM-R [enh_ontime]: diff=0.0054±0.0040 rel=0.55%±0.40% p=1.36e-02 n=10
+SEM-PM - SEM-PG [isl_mbps]: diff=14.4336±4.9706 rel=6.54%±2.24% p=1.03e-04 n=10
+SEM-PM - SEM-PG [ontime_delivery]: diff=-0.0000±0.0000 rel=-0.00%±0.00% p=1.78e-01 n=10
+SEM-PM - SEM-PG [quality_icu]: diff=2.3727±1.4008 rel=3.32%±2.04% p=4.02e-03 n=10
+SEM-PM - SEM-PG [lat_base_p95]: diff=0.0404±0.0751 rel=0.03%±0.06% p=2.55e-01 n=10
+SEM-PM - SEM-PG [enh_ontime]: diff=-0.0046±0.0054 rel=-0.46%±0.54% p=8.61e-02 n=10
+SEM-PM - SEM-OM [isl_mbps]: diff=-2.9399±1.9548 rel=-1.22%±0.80% p=7.85e-03 n=10
+SEM-PM - SEM-OM [ontime_delivery]: diff=-0.0001±0.0001 rel=-0.01%±0.01% p=3.17e-02 n=10
+SEM-PM - SEM-OM [quality_icu]: diff=-1.0413±0.6561 rel=-1.36%±0.84% p=5.84e-03 n=10
+SEM-PM - SEM-OM [lat_base_p95]: diff=0.2458±0.3428 rel=0.19%±0.26% p=1.39e-01 n=10
+SEM-PM - SEM-OM [enh_ontime]: diff=0.0002±0.0012 rel=0.02%±0.12% p=6.87e-01 n=10
+MC-SVC-PM - MC-SVC-R [isl_mbps]: diff=135.3400±34.2428 rel=34.88%±9.58% p=9.01e-06 n=10
+MC-SVC-PM - MC-SVC-R [ontime_delivery]: diff=0.0005±0.0006 rel=0.05%±0.06% p=1.10e-01 n=10
+MC-SVC-PM - MC-SVC-R [quality_icu]: diff=13.6214±2.9488 rel=21.53%±5.49% p=2.48e-06 n=10
+MC-SVC-PM - MC-SVC-R [lat_base_p95]: diff=-0.0460±0.3905 rel=-0.04%±0.30% p=7.96e-01 n=10
+MC-SVC-PM - MC-SVC-R [enh_ontime]: diff=0.0017±0.0012 rel=0.17%±0.12% p=8.47e-03 n=10
+MC-SVC-S - UC-H265 [isl_mbps]: diff=-719.2686±84.8440 rel=-50.32%±2.05% p=1.31e-08 n=10
+MC-SVC-S - UC-H265 [ontime_delivery]: diff=0.5369±0.0591 rel=142.64%±42.28% p=7.19e-09 n=10
+MC-SVC-S - UC-H265 [quality_icu]: diff=50.4285±5.6189 rel=148.24%±44.03% p=7.95e-09 n=10
+MC-SVC-S - UC-H265 [lat_base_p95]: diff=-360.8037±48.2542 rel=-71.27%±2.73% p=3.96e-08 n=10
+MC-SVC-S - UC-H265 [enh_ontime]: diff=0.5427±0.0599 rel=149.51%±44.06% p=7.35e-09 n=10
